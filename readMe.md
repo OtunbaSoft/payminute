@@ -20,4 +20,5 @@
 <li> Run Create statements in the Warehouseʼs Staging Environment </li> 
 <li> Transform dataset to fit the defined Star Schema</li> 
 <li> Load the data into the Staging environment with SQL </li>
+<li> Carry out Data Quality check </li>
 </ol>

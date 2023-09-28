@@ -1,4 +1,5 @@
 import boto3
+import redshift_connector as rdc
 
 region = "eu-west-1"
 
@@ -16,5 +17,9 @@ def create_bucket(access_key, secret_access_key, bucket_name):
         }
     )
     
+
+def connect_to_dwh(conn_details):
+    return rdc.connect(**conn_details)
+
 
     
